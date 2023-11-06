@@ -355,6 +355,114 @@ p {
   width: 55%;
   color: #81afdd;
 }
+
+/*eraly_access*/
+.early_access {
+  display: flex;
+  column-gap: 6rem;
+  margin: 6rem 0 2rem;
+}
+
+.early_access .early_access__left {
+  flex: 3;
+}
+
+.early_access .early_access__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 2rem;
+  flex: 2;
+}
+
+.early_access .early_access__right .container__content {
+  color: #81afdd;
+}
+
+.early_access .early_access__right .right__cta {
+  color: #f49867;
+  border-bottom: 1px solid transparent;
+}
+
+/* cta__rectangle */
+.cta__rectangle {
+  display: flex;
+  column-gap: 6rem;
+  margin: 6rem 0 2rem;
+  align-items: center; /* Center vertically */
+}
+
+.cta__rectangle .rectangle {
+  width: 1170px;
+  height: 172.65px;
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  display: flex;
+  justify-content: space-between; /* Space content horizontally */
+  padding: 20px; /* Add padding for spacing */
+
+  /* Position adjustments */
+  position: relative;
+  left: 135px;
+  top: 3178px;
+}
+
+/* Left Content */
+.cta__rectangle .rectangle .left-content {
+  width: 50%; /* Take half of the available space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Text 1 */
+.cta__rectangle .rectangle .left-content p:nth-child(1) {
+  position: absolute;
+  width: 318.87px;
+  height: 46.89px;
+  left: 0;
+  top: 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0E0E0E;
+}
+
+/* Text 2 */
+.cta__rectangle .rectangle .left-content p:nth-child(2) {
+  position: absolute;
+  width: 866px;
+  height: 78px;
+  left: 0;
+  top: 70px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+/* Button */
+.cta__rectangle .rectangle button {
+  position: absolute;
+  width: 189.14px;
+  height: 59.4px;
+  right: 20px; /* Adjust as needed */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center vertically */
+  background: #000000;
+  border-radius: 40px;
+  color: #fff; /* Text color */
+  text-align: center;
+  line-height: 59.4px; /* Center text vertically */
+  cursor: pointer;
+}
+
+
 /* Медиа запросы для адаптива */
 
 @media screen and (max-width: 1024px) {
